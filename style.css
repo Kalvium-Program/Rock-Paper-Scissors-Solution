@@ -1,0 +1,164 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-cover {
+    background: url("./assets/bg.png") no-repeat;
+    background-size: cover;
+    background-color: #ffc434;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+color: rgb(90, 37, 192);
+font-family:'Poppins', sans-serif ;
+position: relative;
+top: 90px;
+right: 100px;
+font-size: 3em;
+font-weight:900;
+
+}
+#logo {
+    width: 30%;
+position: relative;
+right: 300px;
+top:100px;
+}
+
+.play {
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+.play-text{
+    position: relative;
+    bottom: 45px;
+    left: 300px;
+    font-weight: 900;
+}
+.score {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 24px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: -60px;
+  
+}
+
+.you {
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid  #ffc434 ;
+    width:300px;
+    height: 300px;
+}
+
+.comp {
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid  #ffc434 ;
+    width:300px;
+    height: 300px;
+}
+
+#paper {
+  width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 60px;
+}
+
+
+#rock {
+    width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 40px;
+}
+
+
+#scissors {
+    width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 20px;
+}
+
+
+#versus {
+    /* max-width: 100%; */
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+}
+#text{
+    position: relative;
+    left: 100px;
+    top:-20px;
+}
+.scores{
+    font-size: 4em;
+    padding: 20px;
+    margin-top: 90px;
+}
+#selectedLogo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+#computerLogo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+}
+.gameOverMessage {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.playAgainButton {
+background-color: #ffc434;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}

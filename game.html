@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with Fun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="game-cover">
+    <div class="score">
+        <span id="scores">0-0</span>
+    </div>
+    <div class="container">
+        <div class="you">
+            <span id="text">YOU</span>
+         
+            <img src="./assets/paper-logo.png" id="paper" alt="paper">
+            <img src="./assets/rock-logo.png" id="rock" alt="rock">
+            <img src="./assets/scissors-logo.png" id="scissors" alt="scissors">
+          
+            <img id="selectedLogo" src="" alt="Selected Logo"  style="display: none;">
+        </div>
+        <img src="./assets/vs.png" id="versus" width="50px" height="205px">
+        <div class="comp">COMP
+            <img id="computerLogo" src="" alt="computer Logo"  style="display: none;">  
+        </div>
+    </div>
+    <div id="gameOver">
+        <h1 class="gameOverMessage"></h1>
+        <button class="playAgainButton"style="display: none;">Play Again</button>
+    </div>
+    <script src="./game.js"></script> 
+</body>
+
+</html>
